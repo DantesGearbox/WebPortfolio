@@ -1,0 +1,13 @@
+---- PORTFOLIO TODO ----
+
+URGENT
+	Write down known bugs for each game.
+
+COSMETIC
+	Screenshots and GIFs for all games.
+
+BUGS
+	Sorting tabs on front page don't work. (Removed for now)
+	Prototype 3 (Pacman After Dark): Crashes after the game restarts. UI doesn't fit on screen in portfolio view.
+	Prototype 6 (Neon and Slow-Motion): Lags a ton at the start. UI doesn't fit on the screen, ever.
+	Prototype 7 (RoboTime): Music volume is turned down whenever a jump sound effect is played.
