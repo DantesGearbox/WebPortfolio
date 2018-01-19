@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Piccolo Theme</title>
+<title>The Abyss</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- CSS
@@ -20,10 +20,10 @@
 
 <!-- Favicons
 ================================================== -->
-<link rel="shortcut icon" href="../img/favicon.ico">
-<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="img/favicon2.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon2.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72_2.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114_2.png">
 
 <!-- JS
 ================================================== -->
@@ -49,70 +49,73 @@
 
       </div><!-- End Header -->
      
-    <!-- Page Content
-    ================================================== --> 
-    <div class="row">
-        <!-- Gallery Items
+        <!-- Page Content
         ================================================== --> 
-        <div class="span12 gallery-single">
-            <div class="row">
-                <!---- Left column ---->
-                <div class="span6">
-                    
-                    <h2>The Abyss</h2>
-                    <p class="lead"> This prototype was made for a university course in a single week by me and a team using Unity. The assignment was to make a game that was spectatable, that is, interesting to watch as well as play. I worked on the team as a gameplay-designer and programmer. </p> 
-                    
-                    <h4>Game and Rules</h4>
-                    <p>We ended up making this game: The Abyss. It can be summed up as a local-multiplayer fighting game platformer with no hand to hand combat; instead, you defeat your opponent by outlasting, outsmarting or out-platforming them. When the game starts platforms with different interesting random properties will spawn and it is now your job to be the last man standing. If you touch the sides of the arena you're dead. If you touch the bottom of the screen you're dead. If you touch the dangerous red platforms you're also dead. There are many different kinds of platforms that work both with and against you, they are all activated after a small delay when you touch them, but I wont spoil the (somewhat frustrating!) experience of figuring out what platform does what.</p>
-                    
-                   <h4>Controls</h4>
-                    <p>Player 1: W to Jump, AD to move left and right</p>
-                    <p>Player 2: Up-Arrow to jump, Left/Right-Arrow to move left and right</p>
-                    <p>Both players can jump higher by holding down the jump-button for longer, as well as perform wall-jumps and wall-slides.</p>
-                    
-                    <h4>Play the game</h4>
-                    <p>To your right, you can either download the game or play it directly in your browser (Except for Chrome, use a different browser!)</p>
-                    
-                    <ul class="project-info">
-                        <li><h6>Date:</h6> 11/09/17</li>
-                        <li><h6>Role on team:</h6> Programmer and designer</li>
-                        <li><h6>Team size:</h6> 5 people</li>
-                        <li><h6>Time given:</h6> A week</li>
-                    </ul>
-                    
-                    <a href="../index.htm" class="pull-left"><i class="icon-arrow-left"></i>Back to Portfolio</a>
-                </div>
-                
-                <!---- Right column ---->
-                <div class="span6">
-                    <img src="img/pro-two-type.png" class="align-right thumbnail" alt="image">
-                    
-                    <script>
-                    function revealGame() {
-                        document.getElementById("ifr").height = 415;
-                        document.getElementById("ifr").src="TheAbyss.html";
-                    }
+        <div class="row">
+            <!-- Gallery Items
+            ================================================== --> 
+            <div class="span12 gallery-single">
+                <div class="row">
+                    <!---- Left column ---->
+                    <div class="span6">
 
-                    function hideGame() {
-                        document.getElementById("ifr").height = 0;
-                        document.getElementById("ifr").src="";
-                    }
-                    </script>
+                        <h2>The Abyss</h2>
+                        <p class="lead"> This prototype was made for a university course in a single week by me and a team using Unity. The assignment was to make a game that was spectatable, that is, interesting to watch as well as play. I worked on the team as a gameplay-designer and programmer. </p> 
 
+                        <h4>Game and Rules</h4>
+                        <p>We ended up making this game: The Abyss. It can be summed up as a local-multiplayer fighting game platformer with no hand to hand combat; instead, you defeat your opponent by outlasting, outsmarting or out-platforming them. When the game starts platforms with different interesting random properties will spawn and it is now your job to be the last man standing. If you touch the sides of the arena you're dead. If you touch the bottom of the screen you're dead. If you touch the dangerous red platforms you're also dead. There are many different kinds of platforms that work both with and against you, they are all activated after a small delay when you touch them, but I wont spoil the (somewhat frustrating!) experience of figuring out what platform does what.</p>
+
+                       <h4>Controls</h4>
+                        <p>Player 1: W to Jump, AD to move left and right</p>
+                        <p>Player 2: Up-Arrow to jump, Left/Right-Arrow to move left and right</p>
+                        <p>Both players can jump higher by holding down the jump-button for longer, as well as perform wall-jumps and wall-slides.</p>
+
+                        <h4>Play the game</h4>
+                        <p>By pressing one of the buttons below you can either play the game in you browser or download the game.</p>
+                        <p>If you're having trouble playing the game in you browser, try another browser (Chrome doesn't work) or simply download the game.</p>
+
+                        <script>
+                            function revealGame() {
+                                document.getElementById("ifr").height = 600;
+                                document.getElementById("ifr").src="TheAbyss.html";
+                            }
+
+                            function hideGame() {
+                                document.getElementById("ifr").height = 0;
+                                document.getElementById("ifr").src="";
+                            }
+                        </script>
+
+                        <center>
+                        <a href="#game"> <button class="btn btn-large btn-inverse" type="button" onclick="revealGame()">Play game</button> </a>
+                        <a download href="Prototype2.zip"><button class="btn btn-large btn-inverse" type="button" download="Prototype2.zip">Download</button></a>
+                        </center>
+
+                        <ul class="project-info">
+                            <li><h6>Date:</h6> 11/09/17</li>
+                            <li><h6>Role on team:</h6> Programmer and designer</li>
+                            <li><h6>Team size:</h6> 5 people</li>
+                            <li><h6>Time given:</h6> A week</li>
+                        </ul>
+                    </div>
+
+                    <!---- Right column ---->
+                    <div class="span6">
+                        <img src="img/GO.png" class="align-right thumbnail" alt="image">
+                        <img src="img//Jumping.png" class="align-right thumbnail" alt="image">
+                        <img src="img/EndGame.png" class="align-right thumbnail" alt="image">
+
+                    </div>
                     
-                    <button class="btn btn-large btn-inverse" type="button" onclick="revealGame()">Play game</button>
-                    <button class="btn btn-large btn-inverse" type="button" onclick="hideGame()">Hide game</button>
-                    <a download href="Prototype2.zip"><button class="btn btn-large btn-inverse" type="button" download="Prototype2.zip">Download</button></a>
-                    
+                <center><a href="#" ><button id="game" class="btn btn-large btn-inverse" type="button" onclick="hideGame()">Hide game</button></a></center>
                     </br>
-                    <iframe id='ifr' style="border:px #000000 none;" name="Game name" scrolling="no" frameborder="0" marginheight="px" marginwidth="px" width="600" height="0"></iframe>
+                <center><iframe id='ifr' style="border:px #000000 none;" name="Game name" scrolling="no" frameborder="0" marginheight="px" marginwidth="px" width="960" height="0"></iframe></center>
+                    </br>
+                <a href="../index.htm" class="pull-left"><i class="icon-arrow-left"></i>Back to Portfolio</a>
                     
                 </div>
-            </div>
-        </div><!-- End gallery-single-->
-    
-    </div><!-- End container row -->
-    
+            </div><!-- End gallery-single-->
+        </div><!-- End container row -->
     </div> <!-- End Container -->
 
     <!-- Footer Area
@@ -127,8 +130,10 @@
                 <div class="span3 footer-col">  
                     <h5>Witness me</h5>
                         My name is<strong> Mads Engberg</strong>.<br />
-                        I like game-feel and action <br />
-                        games that aren't shooters.<br /><br />
+                        I like <strong>game-feel</strong> and action <br />
+                        games that aren't shooters.<br />
+                        I am a <strong>programmer</strong> <br />
+                        and a <strong>designer</strong>. <br /><br />
                 </div>
                 <div class="span3 footer-col">
                     <h5>Contact Me</h5>
@@ -148,7 +153,7 @@
             <div class="row"><!-- Begin Sub Footer -->
                 <div class="span12 footer-col footer-sub">
                     <div class="row no-margin">
-                        <div class="span6"><span class="left">Copyright 2012 Piccolo Theme. All rights reserved.</span></div>
+                        <div class="span6"><span class="left">Copyright 2017 Mads Engberg. All rights reserved.</span></div>
                     </div>
                 </div>
             </div><!-- End Sub Footer -->

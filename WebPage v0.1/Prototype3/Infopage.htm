@@ -20,10 +20,10 @@
 
 <!-- Favicons
 ================================================== -->
-<link rel="shortcut icon" href="../img/favicon.ico">
-<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="img/favicon2.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon2.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72_2.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114_2.png">
 
 <!-- JS
 ================================================== -->
@@ -70,26 +70,13 @@
                    <h4>Controls</h4>
                     <p>Arrow keys to move.</p>
                     <p>We tried mimicing the original Pacman controls, which means that if you input a direction while it is blocked, Pacman will go that direction whenever it becomes possible.</p>
+                    
                     <h4>Play the game</h4>
-                    <p>To your right, you can either download the game or play it directly in your browser (Except for Chrome, use a different browser!)</p>
-                    
-                    <ul class="project-info">
-                        <li><h6>Date:</h6> 25/09/17</li>
-                        <li><h6>Role on team:</h6> Programmer and designer</li>
-                        <li><h6>Team size:</h6> 5 people</li>
-                        <li><h6>Time given:</h6> Two weeks</li>
-                    </ul>
-                    
-                    <a href="../index.htm" class="pull-left"><i class="icon-arrow-left"></i>Back to Portfolio</a>
-                </div>
-                
-                <!---- Right column ---->
-                <div class="span6">
-                    <img src="img/pacmanAfterDark.png" class="align-right thumbnail" alt="image">
+                    <p> This game cannot be played in-browser, but by pressing the button below you can download the game and play it.</p>
                     
                     <script>
                     function revealGame() {
-                        document.getElementById("ifr").height = 375;
+                        document.getElementById("ifr").height = 600;
                         document.getElementById("ifr").src="pacmanAfterDark.html";
                     }
 
@@ -98,18 +85,29 @@
                         document.getElementById("ifr").src="";
                     }
                     </script>
-
                     
-                    <button class="btn btn-large btn-inverse" type="button" onclick="revealGame()">Play game</button>
-                    <button class="btn btn-large btn-inverse" type="button" onclick="hideGame()">Hide game</button>  
+                    <center>
                     <a download href="Prototype3.zip"><button class="btn btn-large btn-inverse" type="button" download="Prototype3.zip">Download</button></a>
+                    </center>
                     
-                    </br>
-                    
-                    <iframe id='ifr' style="border:px #000000 none;" name="Game name" scrolling="no" frameborder="0" marginheight="px" marginwidth="px" width="600" height="0"></iframe>
-                    
+                    <ul class="project-info">
+                        <li><h6>Date:</h6> 25/09/17</li>
+                        <li><h6>Role on team:</h6> Programmer and designer</li>
+                        <li><h6>Team size:</h6> 5 people</li>
+                        <li><h6>Time given:</h6> Two weeks</li>
+                    </ul>
+                </div>
+                
+                <!---- Right column ---->
+                <div class="span6">
+                    <img src="img/WholeField.png" class="align-right thumbnail" alt="image">
+                    <img src="img/AlmostCaught.png" class="align-right thumbnail" alt="image">
+                    <img src="img/GameOver.png" class="align-right thumbnail" alt="image">
                     
                 </div>
+            
+                <a href="../index.htm" class="pull-left"><i class="icon-arrow-left"></i>Back to Portfolio</a>
+            
             </div>
 
         </div><!-- End gallery-single-->
@@ -130,8 +128,10 @@
                 <div class="span3 footer-col">  
                     <h5>Witness me</h5>
                         My name is<strong> Mads Engberg</strong>.<br />
-                        I like game-feel and action <br />
-                        games that aren't shooters.<br /><br />
+                        I like <strong>game-feel</strong> and action <br />
+                        games that aren't shooters.<br />
+                        I am a <strong>programmer</strong> <br />
+                        and a <strong>designer</strong>. <br /><br />
                 </div>
                 <div class="span3 footer-col">
                     <h5>Contact Me</h5>
@@ -151,7 +151,7 @@
             <div class="row"><!-- Begin Sub Footer -->
                 <div class="span12 footer-col footer-sub">
                     <div class="row no-margin">
-                        <div class="span6"><span class="left">Copyright 2012 Piccolo Theme. All rights reserved.</span></div>
+                        <div class="span6"><span class="left">Copyright 2017 Mads Engberg. All rights reserved.</span></div>
                     </div>
                 </div>
             </div><!-- End Sub Footer -->
